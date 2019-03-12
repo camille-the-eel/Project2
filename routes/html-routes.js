@@ -92,7 +92,6 @@ module.exports = function (app) {
         })
     });
 
-  
     //ARRIVALS FOR TODAY LIST | GET
     app.get("/arrivals", function (req, res) {
         var cur = {
